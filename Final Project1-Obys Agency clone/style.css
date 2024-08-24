@@ -115,3 +115,44 @@ html, body{
     width: 100%;
     background-color: #151515;
 }
+
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.3vw 5.5vw;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#nav-part2 h4{
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+
+.liti{
+    height: fit-content; 
+    text-transform: uppercase;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vw;
+}
+
+.liti h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.number{
+    font-family: 'silk serif';
+    font-size: 3vw;
+    font-weight: 100;
+}
