@@ -9,6 +9,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #crsr{
@@ -126,9 +127,22 @@ html, body{
 #page3{
     height: 100vh;
     width: 100%;
+    position: relative;
     background-color: #151515;
 }
 
+#page4{
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    padding-top: 5vh;
+    background-color: #151515;
+}
+
+#page5{
+    min-height: 100vh;
+    width: 100%;
+}
 #page1 #nav{
     display: flex;
     align-items: center;
@@ -214,13 +228,13 @@ html, body{
     background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
 }
 
-#video1 #video-crsr{
+#video-crsr{
     height: 9vw;
     width: 9vw;
     border-radius: 50%;
     background-color: #ffa63d;
     position: absolute;
-    top: -10;
+    top: -10%;
     left: 80%;
     display: flex;
     align-items: center;
@@ -244,4 +258,98 @@ html, body{
 
 #video1 #video-crsr i{
     font-size: 2vw;
+}
+
+#page4-content{
+    width: 70vw;
+    margin-left: 28%;
+    position: relative;
+}
+
+#page4-content h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+
+#page4-content .lito{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 5vw 0;
+}
+
+#page4-content>p{
+    font-size: 2vw;
+    width: 50%;
+    margin-bottom: 3vw;
+}
+
+#page4-flex{
+    display: flex;
+    gap: 2vw;
+}
+
+#page4-flex .lekh{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    width: 14.5vw;
+}
+
+#page4-flex .lekh p{
+    font-size: 1.1rem;
+}
+#page4-flex img{
+    width: 50%;
+}
+
+#page4-bluediv{
+    background-color: #3f7df4;
+    width: 35vw;
+    padding: 4vw 3vw 1vw 3vw;
+    position: relative;
+    margin-top: -39vh;
+    margin-left: 26vw;
+}
+#page4-bluediv .bluediv-elem{
+    display: flex;
+}
+
+#page4-bluediv .bluediv-elem h4{
+    width: 22vw;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+#page4-bluediv .bluediv-elem p{
+    width: 15.7vw;
+    position: relative;
+    top:1vw;
+    font-size: 0.8vw;
+    padding-left: 3vw;
+}
+
+#page4-bluediv .underline{
+    position: relative;
+    left: -2vw;
+    height: 2px;
+    width: 28vw;
+    margin: 1.7vw 1.7vw;
+    background-color: #fff;
+}
+
+#page4-content .lito2{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 5vw;
+}
+
+#page4-content .last{
+    margin-top: 2vw;
+}
+
+#page4-content .last h5{
+    font-size: 1vw;
+    font-weight: 400;
 }
