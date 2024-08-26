@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'PLain Light';
+    font-family: 'plain Light';
     color: white;
 }
 
@@ -142,6 +142,8 @@ html, body{
 #page5{
     min-height: 100vh;
     width: 100%;
+    position: relative;
+    background-color: #151515;
 }
 #page1 #nav{
     display: flex;
@@ -346,10 +348,67 @@ html, body{
 }
 
 #page4-content .last{
-    margin-top: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 5vw;
 }
 
 #page4-content .last h5{
     font-size: 1vw;
     font-weight: 400;
+}
+#page5 .elem1-page5, #page5 .elem2-page5{
+    white-space: nowrap;
+}
+
+#page5 .elem1-page5 h1{
+    font-size: 7vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'silk serif';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+    animation-name: animation;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#page5 .elem2-page5 h1{
+    font-size: 7vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'plain Light';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    display: inline-block;
+    margin-right: 16px;
+    animation-name: animation;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    transform: translateX(calc(-100% - 20px));
+}
+
+#page5 .elem2-page5 h1 span{
+    font-family: 'silk serif';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+#page5 .elem1-page5 h1 span{
+    font-family: 'plain Light';
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+@keyframes animation {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
 }
