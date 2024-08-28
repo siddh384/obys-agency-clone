@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obys Agency- Sid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon">
@@ -29,7 +30,7 @@
         </div>
     </div>
     <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-1.5">
             <div id="nav">
                 <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
                     <path d="M40.7622 24.5917C40.7622 23.6724 41.4511 22.9829 42.3697 22.9829C43.2883 22.9829 43.9773 23.6724 43.9773 24.5917C43.9773 25.511 43.2883 26.2005 42.3697 26.2005C41.566 26.2005 40.7622 25.3961 40.7622 24.5917Z" fill="currentColor"></path>
@@ -57,7 +58,7 @@
             <div class="number">
                 <h5>01</h5>
             </div>
-            <div class="liti">
+            <div class="liti" id="1liti">
                 <h1>We design</h1>
             </div>
             <div class="liti">
@@ -72,7 +73,7 @@
                 <h1>Experience</h1>
             </div>
         </div>
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-1.5">
             <div id="video1">
                 <div id="video-crsr">
                     <i class="ri-play-fill"></i>
@@ -81,9 +82,9 @@
                 <video autoplay loop muted src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"></video>
             </div>
         </div>
-        <div id="page3"> 
+        <div id="page3" data-scroll data-scroll-speed="-1"> 
         </div>
-        <div id="page4">
+        <div id="page4" data-scroll>
             <div id="page4-content">
                 <h1>About Obys</h1>
                 <div class="lito"></div>
@@ -176,7 +177,7 @@
                 </div>
             </div>
         </div>
-        <div id="page5">
+        <div id="page5" data-scroll>
             <div class="elem1-page5">
                 <h1>Sport - <span>technology -</span> Fashion - </h1>
                 <h1 aria-hidden="true">Sport - <span>technology -</span> Fashion - </h1>
@@ -194,7 +195,7 @@
                 <h1 aria-hidden="true">music - <span>automative -</span> hotels - </h1>
             </div>
         </div>
-        <div id="footer">
+        <div id="footer" data-scroll>
             <div class="maal">
                 <div class="heading">
                     <h3>04</h3>
@@ -239,6 +240,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
