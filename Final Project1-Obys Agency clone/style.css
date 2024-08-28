@@ -275,6 +275,16 @@ a {
     position: relative;
 }
 
+#page4-content h1::before{
+    content: "03";
+    position: absolute;
+    left: -13%;
+    top: 1%;
+    font-size: 3.2vw;
+    font-weight: 100;
+    font-family: "silk serif";
+}
+
 #page4-content h1{
     font-size: 7vw;
     text-transform: uppercase;
