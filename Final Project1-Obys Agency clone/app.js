@@ -52,15 +52,15 @@ function loadingAnimation(){
     })
 }
 
-// function crsrAnimation(){
-//     document.addEventListener("mousemove", function(dets){
-//         gsap.to('#crsr', {
-//             left:dets.x,
-//             top:dets.y,
-//         })
-//     })
-//     Shery.makeMagnet("#nav-part2 h4",);
-// }
+function crsrAnimation(){
+    document.addEventListener("mousemove", function(dets){
+        gsap.to('#crsr', {
+            left:dets.x,
+            top:dets.y,
+        })
+    })
+    Shery.makeMagnet("#nav-part2 h4",);
+}
 
 loadingAnimation();
 crsrAnimation();

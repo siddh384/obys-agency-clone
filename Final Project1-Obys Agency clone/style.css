@@ -10,6 +10,13 @@ html, body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    cursor: hidden;
+}
+
+a {
+    transition: none;
+    animation: none;
+    text-decoration: none;
 }
 
 #crsr{
@@ -411,4 +418,118 @@ html, body{
     to{
         transform: translateX(calc(-100% - 20px));
     }
+}
+
+#footer{
+    height: fit-content;
+    background-color: #151515;
+    position: relative;
+}
+
+#footer .maal{
+    width: 70vw;
+    margin-left: 28%;
+    background-color: transparent;
+}
+
+#footer .maal .heading{
+    position: relative;
+}
+
+#footer .maal .heading h3{
+    position: absolute;
+    left: -13%;
+    top: 10%;
+    font-size: 3.2vw;
+    font-weight: 100;
+    font-family: "silk serif";
+}
+
+#footer .maal .heading h1{
+    font-size: 7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'plain light';
+    width: fit-content;
+}
+
+#footer .maal .heading h1 i{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 500;
+}
+
+#footer .maal .heading h1:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 400;
+    font-family: 'silk serif';
+}
+
+.footerContent{
+    display: flex;
+    align-items: top;
+    justify-content: start;
+    gap: 12vw;
+}
+
+.footerContent #one{   
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.footerContent #one h5{
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.footerContent #one h6{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.footerContent #two{   
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.footerContent #two h5{
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.footerContent #two h6{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.footerContent #three{   
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.footerContent #three h5{
+    font-size: 0.9vw;
+    font-weight: 500;
+}
+
+.footerContent #three h6{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+#footer .lastliti{
+    height: 1.5px;
+    width: 92%;
+    background-color: #fff;
+    margin: 4vw 0;
+}
+
+#footer h4{
+    font-size: 0.8vw;
+    font-weight: 500;
+    padding-bottom: 4vw;
 }
