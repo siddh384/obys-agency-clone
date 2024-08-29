@@ -114,7 +114,7 @@ a {
 
 #main{
     position: relative;
-    background-color: #030303;
+    background-color: #151515;
 }
 
 #page1{
@@ -132,10 +132,11 @@ a {
 }
 
 #page3{
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     position: relative;
     background-color: #151515;
+    padding: 17vh 2vw;
 }
 
 #page4{
@@ -542,4 +543,65 @@ a {
     font-size: 0.8vw;
     font-weight: 500;
     padding-bottom: 4vw;
+}
+
+#page3 h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 28%;
+}
+
+#page3 h1::before{
+    content: "02";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -12%;
+    top: 8%;
+}
+
+#page3 .underline{
+    width: 70vw;
+    height: 1px;
+    background-color: #fff;
+    margin: 3vw 0 3vw 28%;
+}
+
+#img-container{
+    padding: 1vw;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5vw;
+}
+
+#imgdiv1{
+    height: 40vw;
+    width: 24vw;
+    position: relative;
+    flex-shrink: 0;
+}
+
+#imgdiv1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+._canvas_container{
+    z-index: 999999 !important;
+    pointer-events: none;
+}
+
+#img-container #page3-circle{
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
 }
